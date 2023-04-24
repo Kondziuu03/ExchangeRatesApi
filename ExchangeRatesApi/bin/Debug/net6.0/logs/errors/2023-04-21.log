@@ -1,0 +1,70 @@
+ --- Error(2023-04-21 23:17:52.8148)--- Exception Type: System.Exception Exception Message: test Additional Info: test Stack Trace: System.Exception: test
+   at ExchangeRatesApi.Controllers.WeatherForecastController.Get() in C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\Controllers\WeatherForecastController.cs:line 27
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ExchangeRatesApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\Middleware\ErrorHandlingMiddleware.cs:line 16    at ExchangeRatesApi.Controllers.WeatherForecastController.Get() in C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\Controllers\WeatherForecastController.cs:line 27
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at ExchangeRatesApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\Middleware\ErrorHandlingMiddleware.cs:line 16 ------
+ --- Error(2023-04-21 23:19:19.7107)--- Exception Type:  Exception Message:  Additional Info: Method: GET, RequestUri: 'http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5', Version: 1.1, Content: <null>, Headers:
+{
+  traceparent: 00-8eda8023099a8a550ee09ce071bc7c4a-5e02aefcbc906b2e-00
+} Stack Trace:  ------
+ --- Error(2023-04-21 23:20:37.5676)--- Exception Type:  Exception Message:  Additional Info: Method: GET, RequestUri: 'http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5', Version: 1.1, Content: <null>, Headers:
+{
+  traceparent: 00-76bf6fb4d251ad89a58ce77574bca2e6-bc8fdd14d6ad90b9-00
+} Stack Trace:  ------
+ --- Error(2023-04-21 23:22:21.9201)--- Exception Type:  Exception Message:  Additional Info: Method: GET, RequestUri: 'http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5', Version: 1.1, Content: <null>, Headers:
+{
+  traceparent: 00-201692c51c21b30030a8d5c9aba22a35-1a788148bc4f8ee3-00
+} Stack Trace:  ------
+ --- Error(2023-04-21 23:28:06.4566)--- Exception Type:  Exception Message:  Additional Info: Method: GET, RequestUri: 'http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5', Version: 1.1, Content: <null>, Headers:
+{
+  traceparent: 00-eaf8e720d5bff26463a34b2255b0e17a-dcdd292640d93465-00
+} Stack Trace:  ------
+ --- Error(2023-04-21 23:30:09.5318)--- Exception Type:  Exception Message:  Additional Info: Method: GET, RequestUri: 'http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5', Version: 1.1, Content: <null>, Headers:
+{
+  traceparent: 00-a1554f96d3a478a76189f50d25cdb7a3-ddd47d63a4f3d802-00
+} Stack Trace:  ------
+ --- Error(2023-04-21 23:31:19.1423)--- Exception Type:  Exception Message:  Additional Info: Method: GET, RequestUri: 'http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5', Version: 1.1, Content: <null>, Headers:
+{
+  traceparent: 00-1a081a13f3c2940fd93d6d9e678bfad4-b88a783473e11870-00
+} Stack Trace:  ------
+ --- Error(2023-04-21 23:31:42.0396)--- Exception Type:  Exception Message:  Additional Info: Method: GET, RequestUri: 'http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5', Version: 1.1, Content: <null>, Headers:
+{
+  traceparent: 00-8b4071158a7722031449f49fa74fcf1f-108bf369a2bfe2e3-00
+} Stack Trace:  ------
+ --- Error(2023-04-21 23:44:44.5207)--- Exception Type:  Exception Message:  Additional Info: Method: GET, RequestUri: 'http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-3', Version: 1.1, Content: <null>, Headers:
+{
+  traceparent: 00-94da34da1effafd82ee9db69e9aac4b4-e5f290f0958b3064-00
+} Stack Trace:  ------
+ --- Error(2023-04-21 23:45:21.7210)--- Exception Type:  Exception Message:  Additional Info: Method: GET, RequestUri: 'http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-10-3', Version: 1.1, Content: <null>, Headers:
+{
+  traceparent: 00-6a4f73fe661e718a25c2b65057c795a5-39ad5ef29fec6277-00
+} Stack Trace:  ------

@@ -1,0 +1,324 @@
+2023-04-21 23:17:49.2315 INFO Now listening on: https://localhost:7298
+2023-04-21 23:17:49.2572 INFO Now listening on: http://localhost:5298
+2023-04-21 23:17:49.2572 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:17:49.2572 INFO Hosting environment: Development
+2023-04-21 23:17:49.2572 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:17:50.2400 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:17:50.3843 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 144.8750ms
+2023-04-21 23:17:50.3843 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:17:50.3843 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:17:50.3843 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.4130ms
+2023-04-21 23:17:50.4070 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.7174ms
+2023-04-21 23:17:50.4584 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:17:50.5083 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 49.8859ms
+2023-04-21 23:17:52.8117 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:17:52.8148 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:17:52.8148 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:17:52.8148 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 3.3729ms
+2023-04-21 23:17:52.8148 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:17:52.8401 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 500 - - 28.3608ms
+2023-04-21 23:18:56.8763 INFO Now listening on: https://localhost:7298
+2023-04-21 23:18:56.9023 INFO Now listening on: http://localhost:5298
+2023-04-21 23:18:56.9023 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:18:56.9023 INFO Hosting environment: Development
+2023-04-21 23:18:56.9023 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:18:57.4386 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:18:57.6499 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 212.3057ms
+2023-04-21 23:18:57.6885 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:18:57.6885 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:18:57.6885 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 10.7397ms
+2023-04-21 23:18:57.7477 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.5565ms
+2023-04-21 23:18:57.7865 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:18:57.8744 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.8434ms
+2023-04-21 23:19:01.3779 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:19:01.3779 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:19:01.3779 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:19:01.4323 INFO Executing action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) - Validation state: Valid
+2023-04-21 23:19:06.5872 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:19:06.5872 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:19:06.6477 INFO Executed action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5213.0415ms.
+2023-04-21 23:19:06.6477 INFO Executing ObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:19:06.6575 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 5265.9039ms
+2023-04-21 23:19:06.6575 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:19:06.6575 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 200 - application/json;+charset=utf-8 5279.9799ms
+2023-04-21 23:19:06.8230 INFO Received HTTP response headers after 233.9652ms - 404
+2023-04-21 23:19:06.8230 INFO End processing HTTP request after 239.0086ms - 404
+2023-04-21 23:20:31.1282 INFO Now listening on: https://localhost:7298
+2023-04-21 23:20:31.1576 INFO Now listening on: http://localhost:5298
+2023-04-21 23:20:31.1576 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:20:31.1576 INFO Hosting environment: Development
+2023-04-21 23:20:31.1576 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:20:31.8667 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:20:32.0294 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:20:32.0294 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:20:32.0294 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 163.6474ms
+2023-04-21 23:20:32.0375 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 8.0893ms
+2023-04-21 23:20:32.0528 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.4421ms
+2023-04-21 23:20:32.1028 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:20:32.1670 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.2221ms
+2023-04-21 23:20:33.9827 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:20:33.9861 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:20:33.9861 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:20:34.0386 INFO Executing action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) - Validation state: Valid
+2023-04-21 23:20:36.2940 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:20:36.2940 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:20:36.3515 INFO Executed action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2310.6627ms.
+2023-04-21 23:20:36.3515 INFO Executing ObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:20:36.3592 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 2365.7494ms
+2023-04-21 23:20:36.3592 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:20:36.3592 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 200 - application/json;+charset=utf-8 2376.7952ms
+2023-04-21 23:20:36.4871 INFO Received HTTP response headers after 191.3053ms - 404
+2023-04-21 23:20:36.4871 INFO End processing HTTP request after 195.943ms - 404
+2023-04-21 23:22:14.6105 INFO Now listening on: https://localhost:7298
+2023-04-21 23:22:14.6345 INFO Now listening on: http://localhost:5298
+2023-04-21 23:22:14.6345 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:22:14.6345 INFO Hosting environment: Development
+2023-04-21 23:22:14.6345 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:22:15.4018 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:22:15.5595 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:22:15.5595 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:22:15.5595 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 159.9052ms
+2023-04-21 23:22:15.5595 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.5329ms
+2023-04-21 23:22:15.5764 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.6300ms
+2023-04-21 23:22:15.6226 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:22:15.6785 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 55.9717ms
+2023-04-21 23:22:17.6939 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:22:17.6939 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:22:17.6939 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:22:17.7469 INFO Executing action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) - Validation state: Valid
+2023-04-21 23:22:20.5540 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:22:20.5540 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:22:20.6131 INFO Executed action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2864.0494ms.
+2023-04-21 23:22:20.6131 INFO Executing ObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:22:20.6131 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 2915.6817ms
+2023-04-21 23:22:20.6131 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:22:20.6131 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 200 - application/json;+charset=utf-8 2926.6270ms
+2023-04-21 23:22:20.7537 INFO Received HTTP response headers after 197.2568ms - 404
+2023-04-21 23:22:20.7537 INFO End processing HTTP request after 202.8378ms - 404
+2023-04-21 23:28:01.7190 INFO Now listening on: https://localhost:7298
+2023-04-21 23:28:01.7392 INFO Now listening on: http://localhost:5298
+2023-04-21 23:28:01.7392 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:28:01.7392 INFO Hosting environment: Development
+2023-04-21 23:28:01.7392 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:28:02.1968 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:28:02.3143 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:28:02.3143 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:28:02.3143 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 118.3375ms
+2023-04-21 23:28:02.3143 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.6505ms
+2023-04-21 23:28:02.3143 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.7043ms
+2023-04-21 23:28:02.3681 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:28:02.4136 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 45.4285ms
+2023-04-21 23:28:06.2749 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:28:06.2749 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:28:06.2834 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast]] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:28:06.2834 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:28:06.2834 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:28:06.3166 INFO Executing ObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:28:06.3166 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 35.7722ms
+2023-04-21 23:28:06.3166 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:28:06.3166 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 200 - application/json;+charset=utf-8 46.1126ms
+2023-04-21 23:28:06.4566 INFO Received HTTP response headers after 164.3394ms - 404
+2023-04-21 23:28:06.4566 INFO End processing HTTP request after 168.2704ms - 404
+2023-04-21 23:28:28.5099 INFO Now listening on: https://localhost:7298
+2023-04-21 23:28:28.5306 INFO Now listening on: http://localhost:5298
+2023-04-21 23:28:28.5318 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:28:28.5318 INFO Hosting environment: Development
+2023-04-21 23:28:28.5318 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:30:02.7099 INFO Now listening on: https://localhost:7298
+2023-04-21 23:30:02.7306 INFO Now listening on: http://localhost:5298
+2023-04-21 23:30:02.7306 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:30:02.7306 INFO Hosting environment: Development
+2023-04-21 23:30:02.7306 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:30:03.2364 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:30:03.3514 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 115.8819ms
+2023-04-21 23:30:03.3514 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:30:03.3514 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:30:03.3514 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.0901ms
+2023-04-21 23:30:03.3612 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.9447ms
+2023-04-21 23:30:03.4052 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:30:03.4587 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 53.4893ms
+2023-04-21 23:30:09.3886 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:30:09.3918 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:30:09.3918 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast]] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:30:09.3918 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:30:09.3918 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:30:09.4280 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:30:09.4280 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 34.2382ms
+2023-04-21 23:30:09.4280 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:30:09.4280 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 200 - application/json;+charset=utf-8 43.6985ms
+2023-04-21 23:30:09.5315 INFO Received HTTP response headers after 126.5073ms - 404
+2023-04-21 23:30:09.5318 INFO End processing HTTP request after 130.8388ms - 404
+2023-04-21 23:31:15.7630 INFO Now listening on: https://localhost:7298
+2023-04-21 23:31:15.7857 INFO Now listening on: http://localhost:5298
+2023-04-21 23:31:15.7857 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:31:15.7857 INFO Hosting environment: Development
+2023-04-21 23:31:15.7857 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:31:16.2510 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:31:16.3765 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 126.1805ms
+2023-04-21 23:31:16.3765 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:31:16.3765 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:31:16.3765 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.0074ms
+2023-04-21 23:31:16.3765 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.3118ms
+2023-04-21 23:31:16.4291 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:31:16.4773 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 48.1758ms
+2023-04-21 23:31:19.0007 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:31:19.0007 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:31:19.0007 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast]] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:31:19.0161 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:31:19.0161 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:31:19.0416 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:31:19.0416 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 35.4804ms
+2023-04-21 23:31:19.0416 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:31:19.0416 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 200 - application/json;+charset=utf-8 45.4972ms
+2023-04-21 23:31:19.1423 INFO Received HTTP response headers after 124.4106ms - 404
+2023-04-21 23:31:19.1423 INFO End processing HTTP request after 128.7604ms - 404
+2023-04-21 23:31:24.6258 INFO Now listening on: https://localhost:7298
+2023-04-21 23:31:24.6463 INFO Now listening on: http://localhost:5298
+2023-04-21 23:31:24.6463 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:31:24.6463 INFO Hosting environment: Development
+2023-04-21 23:31:24.6463 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:31:29.5272 INFO Now listening on: https://localhost:7298
+2023-04-21 23:31:29.5561 INFO Now listening on: http://localhost:5298
+2023-04-21 23:31:29.5561 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:31:29.5561 INFO Hosting environment: Development
+2023-04-21 23:31:29.5561 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:31:30.3102 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:31:30.4976 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 188.2571ms
+2023-04-21 23:31:30.5054 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:31:30.5054 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:31:30.5054 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.6596ms
+2023-04-21 23:31:30.5182 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.8134ms
+2023-04-21 23:31:30.5630 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:31:30.6200 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.0470ms
+2023-04-21 23:31:34.0833 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:31:34.0833 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:31:34.0947 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast]] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:31:34.1382 INFO Executing action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) - Validation state: Valid
+2023-04-21 23:31:37.4854 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:31:37.4854 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-5
+2023-04-21 23:31:37.5411 INFO Executed action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3400.913ms.
+2023-04-21 23:31:37.5411 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:31:37.5486 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 3451.8448ms
+2023-04-21 23:31:37.5486 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:31:37.5486 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 200 - application/json;+charset=utf-8 3465.4531ms
+2023-04-21 23:31:37.6615 INFO Received HTTP response headers after 174.2207ms - 404
+2023-04-21 23:31:37.6615 INFO End processing HTTP request after 178.9796ms - 404
+2023-04-21 23:37:26.8934 INFO Now listening on: https://localhost:7298
+2023-04-21 23:37:26.9167 INFO Now listening on: http://localhost:5298
+2023-04-21 23:37:26.9167 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:37:26.9167 INFO Hosting environment: Development
+2023-04-21 23:37:26.9167 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:37:27.6054 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:37:27.7662 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 161.5067ms
+2023-04-21 23:37:27.7662 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:37:27.7662 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:37:27.7662 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.7528ms
+2023-04-21 23:37:27.7903 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.6248ms
+2023-04-21 23:37:27.8290 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:37:27.8828 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 53.8046ms
+2023-04-21 23:37:29.6668 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:37:29.6668 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:37:29.6759 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast]] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:37:29.7194 INFO Executing action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) - Validation state: Valid
+2023-04-21 23:37:41.5275 INFO Executed action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11805.9299ms.
+2023-04-21 23:37:41.5275 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:37:48.3214 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 18643.2946ms
+2023-04-21 23:37:48.3214 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:37:50.4134 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 200 - application/json;+charset=utf-8 20746.6444ms
+2023-04-21 23:38:46.2826 INFO Now listening on: https://localhost:7298
+2023-04-21 23:38:46.3067 INFO Now listening on: http://localhost:5298
+2023-04-21 23:38:46.3067 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:38:46.3067 INFO Hosting environment: Development
+2023-04-21 23:38:46.3067 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:38:47.0972 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:38:47.2460 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 149.6099ms
+2023-04-21 23:38:47.2460 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:38:47.2460 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:38:47.2535 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.0720ms
+2023-04-21 23:38:47.2535 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.3462ms
+2023-04-21 23:38:47.3072 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:38:47.3708 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.6303ms
+2023-04-21 23:38:52.3760 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:38:52.3760 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:38:52.3760 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast]] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:38:52.4298 INFO Executing action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) - Validation state: Valid
+2023-04-21 23:39:00.6330 INFO Executed action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8200.9451ms.
+2023-04-21 23:39:00.6330 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:44:35.9674 INFO Now listening on: https://localhost:7298
+2023-04-21 23:44:35.9929 INFO Now listening on: http://localhost:5298
+2023-04-21 23:44:35.9929 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:44:35.9929 INFO Hosting environment: Development
+2023-04-21 23:44:35.9929 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:44:36.6471 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:44:36.8069 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 161.8342ms
+2023-04-21 23:44:36.8166 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:44:36.8166 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:44:36.8166 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.9639ms
+2023-04-21 23:44:36.8303 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.6761ms
+2023-04-21 23:44:36.8705 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:44:36.9376 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 67.1939ms
+2023-04-21 23:44:38.4883 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:44:38.4883 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:44:38.4883 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast]] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:44:38.5401 INFO Executing action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) - Validation state: Valid
+2023-04-21 23:44:41.8761 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-3
+2023-04-21 23:44:41.8761 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-11-3
+2023-04-21 23:44:41.9343 INFO Executed action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3392.1238ms.
+2023-04-21 23:44:41.9343 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:44:41.9416 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 3442.6139ms
+2023-04-21 23:44:41.9416 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:44:41.9416 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 200 - application/json;+charset=utf-8 3453.4774ms
+2023-04-21 23:44:42.1329 INFO Received HTTP response headers after 254.4321ms - 404
+2023-04-21 23:44:42.1329 INFO End processing HTTP request after 259.9117ms - 404
+2023-04-21 23:45:12.0976 INFO Now listening on: https://localhost:7298
+2023-04-21 23:45:12.1243 INFO Now listening on: http://localhost:5298
+2023-04-21 23:45:12.1258 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:45:12.1258 INFO Hosting environment: Development
+2023-04-21 23:45:12.1258 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:45:12.8689 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:45:13.0218 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:45:13.0218 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:45:13.0218 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 154.6576ms
+2023-04-21 23:45:13.0218 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.3536ms
+2023-04-21 23:45:13.0396 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.7360ms
+2023-04-21 23:45:13.0828 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:45:13.1428 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 60.0418ms
+2023-04-21 23:45:15.1715 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:45:15.1747 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:45:15.1747 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast]] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:45:15.2225 INFO Executing action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) - Validation state: Valid
+2023-04-21 23:45:20.1101 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-10-3
+2023-04-21 23:45:20.1101 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-10-3
+2023-04-21 23:45:20.1811 INFO Executed action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4956.5732ms.
+2023-04-21 23:45:20.1811 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:45:20.1889 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 5007.003ms
+2023-04-21 23:45:20.1889 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:45:20.1889 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 200 - application/json;+charset=utf-8 5017.6936ms
+2023-04-21 23:45:20.2721 INFO Received HTTP response headers after 160.1233ms - 404
+2023-04-21 23:45:20.2721 INFO End processing HTTP request after 164.8479ms - 404
+2023-04-21 23:46:16.6058 INFO Now listening on: https://localhost:7298
+2023-04-21 23:46:16.6328 INFO Now listening on: http://localhost:5298
+2023-04-21 23:46:16.6328 INFO Application started. Press Ctrl+C to shut down.
+2023-04-21 23:46:16.6328 INFO Hosting environment: Development
+2023-04-21 23:46:16.6328 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-21 23:46:17.4369 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-21 23:46:17.5859 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-21 23:46:17.5859 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-21 23:46:17.5859 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 150.5840ms
+2023-04-21 23:46:17.5859 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.6398ms
+2023-04-21 23:46:17.5983 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.3385ms
+2023-04-21 23:46:17.6437 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-21 23:46:17.7005 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.7368ms
+2023-04-21 23:46:20.4668 INFO Request starting HTTP/2 GET https://localhost:7298/WeatherForecast - -
+2023-04-21 23:46:20.4719 INFO Executing endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:46:20.4719 INFO Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ExchangeRatesApi.WeatherForecast]] Get() on controller ExchangeRatesApi.Controllers.WeatherForecastController (ExchangeRatesApi).
+2023-04-21 23:46:20.5203 INFO Executing action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) - Validation state: Valid
+2023-04-21 23:46:25.3712 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-10-03
+2023-04-21 23:46:25.3712 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-10-03
+2023-04-21 23:46:25.4295 INFO Executed action method ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4907.2278ms.
+2023-04-21 23:46:25.4295 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.WeatherForecast[]'.
+2023-04-21 23:46:25.4295 INFO Executed action ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi) in 4955.4296ms
+2023-04-21 23:46:25.4295 INFO Executed endpoint 'ExchangeRatesApi.Controllers.WeatherForecastController.Get (ExchangeRatesApi)'
+2023-04-21 23:46:25.4295 INFO Request finished HTTP/2 GET https://localhost:7298/WeatherForecast - - - 200 - application/json;+charset=utf-8 4970.1555ms
+2023-04-21 23:46:25.5506 INFO Received HTTP response headers after 177.5945ms - 200
+2023-04-21 23:46:25.5506 INFO End processing HTTP request after 182.4303ms - 200

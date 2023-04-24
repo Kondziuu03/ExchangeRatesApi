@@ -1,0 +1,1038 @@
+2023-04-22 11:24:51.2927 INFO Now listening on: https://localhost:7298
+2023-04-22 11:24:51.3190 INFO Now listening on: http://localhost:5298
+2023-04-22 11:24:51.3190 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 11:24:51.3190 INFO Hosting environment: Development
+2023-04-22 11:24:51.3190 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 11:24:52.0156 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 11:24:52.1947 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 11:24:52.1947 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 11:24:52.1947 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 181.3191ms
+2023-04-22 11:24:52.1947 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.8040ms
+2023-04-22 11:24:52.2176 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.9311ms
+2023-04-22 11:24:52.2558 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 11:24:52.3177 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 61.9069ms
+2023-04-22 11:25:00.2076 INFO Request starting HTTP/2 GET https://localhost:7298/api/ExchangeRates - -
+2023-04-22 11:25:00.2076 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:25:00.2299 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage() on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 11:25:00.2460 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-10-03
+2023-04-22 11:25:00.2460 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-10-03
+2023-04-22 11:25:00.4032 INFO Received HTTP response headers after 155.5979ms - 200
+2023-04-22 11:25:00.4032 INFO End processing HTTP request after 159.8463ms - 200
+2023-04-22 11:25:00.4916 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 11:25:00.4916 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 264.2711ms
+2023-04-22 11:25:00.4916 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:25:00.4916 INFO Request finished HTTP/2 GET https://localhost:7298/api/ExchangeRates - - - 200 - application/json;+charset=utf-8 288.9162ms
+2023-04-22 11:25:14.1558 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates - -
+2023-04-22 11:25:14.1558 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:25:14.1558 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage() on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 11:25:14.1558 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-10-03
+2023-04-22 11:25:14.1558 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2022-10-03
+2023-04-22 11:25:14.3032 INFO Received HTTP response headers after 146.5059ms - 200
+2023-04-22 11:25:14.3032 INFO End processing HTTP request after 146.6393ms - 200
+2023-04-22 11:25:14.3032 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 11:25:14.3032 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 150.4921ms
+2023-04-22 11:25:14.3032 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:25:14.3032 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates - - - 200 - application/json;+charset=utf-8 151.3680ms
+2023-04-22 11:48:11.2031 INFO Now listening on: https://localhost:7298
+2023-04-22 11:48:11.2245 INFO Now listening on: http://localhost:5298
+2023-04-22 11:48:11.2245 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 11:48:11.2245 INFO Hosting environment: Development
+2023-04-22 11:48:11.2245 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 11:48:11.4062 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 11:48:11.5177 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 11:48:11.5177 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 11:48:11.5177 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 112.1684ms
+2023-04-22 11:48:11.5177 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.6845ms
+2023-04-22 11:48:11.5177 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.4810ms
+2023-04-22 11:48:11.6329 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 11:48:11.6830 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 50.0761ms
+2023-04-22 11:48:14.8291 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 11:48:14.8291 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 3.7221ms
+2023-04-22 11:48:14.8291 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 11:48:14.8291 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 11:48:14.8291 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 0.2401ms
+2023-04-22 11:48:14.8291 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.5194ms
+2023-04-22 11:48:14.9019 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 11:48:14.9019 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.0779ms
+2023-04-22 11:48:30.2858 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020-10-05 - -
+2023-04-22 11:48:30.2858 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:48:30.3077 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 11:48:30.3232 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 11:48:30.3232 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 11:48:30.4966 INFO Received HTTP response headers after 171.8998ms - 200
+2023-04-22 11:48:30.4966 INFO End processing HTTP request after 176.065ms - 200
+2023-04-22 11:48:30.5649 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 11:48:30.5649 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 259.4772ms
+2023-04-22 11:48:30.5649 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:48:30.5649 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020-10-05 - - - 200 - application/json;+charset=utf-8 283.9492ms
+2023-04-22 11:49:59.8351 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020 - -
+2023-04-22 11:49:59.8351 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:49:59.8351 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 11:49:59.8351 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020
+2023-04-22 11:49:59.8351 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020
+2023-04-22 11:49:59.9305 INFO Received HTTP response headers after 94.1982ms - 404
+2023-04-22 11:49:59.9305 INFO End processing HTTP request after 94.3138ms - 404
+2023-04-22 11:49:59.9422 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 106.2837ms
+2023-04-22 11:49:59.9422 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:50:00.0356 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020 - - - 500 - - 200.4956ms
+2023-04-22 11:56:42.3905 INFO Now listening on: https://localhost:7298
+2023-04-22 11:56:42.4120 INFO Now listening on: http://localhost:5298
+2023-04-22 11:56:42.4120 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 11:56:42.4120 INFO Hosting environment: Development
+2023-04-22 11:56:42.4120 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 11:56:42.6359 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 11:56:42.7512 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 115.9323ms
+2023-04-22 11:56:42.7512 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 11:56:42.7512 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 11:56:42.7512 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.6754ms
+2023-04-22 11:56:42.7512 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.9375ms
+2023-04-22 11:56:42.8050 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 11:56:42.8530 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 47.9918ms
+2023-04-22 11:56:45.3430 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 11:56:45.3468 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 3.6948ms
+2023-04-22 11:56:45.3468 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 11:56:45.3468 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 11:56:45.3468 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 0.3080ms
+2023-04-22 11:56:45.3468 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.4542ms
+2023-04-22 11:56:45.4007 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 11:56:45.4007 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.1378ms
+2023-04-22 11:56:51.8035 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020 - -
+2023-04-22 11:56:51.8035 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:56:51.8214 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 11:56:51.8375 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 14.3146ms
+2023-04-22 11:56:51.8375 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:56:51.8527 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020 - - - 500 - - 49.1953ms
+2023-04-22 11:56:53.1196 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020 - -
+2023-04-22 11:56:53.1196 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:56:53.1196 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 11:56:53.1196 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 0.6818ms
+2023-04-22 11:56:53.1196 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:56:53.1196 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020 - - - 500 - - 2.4300ms
+2023-04-22 11:57:02.2516 INFO Now listening on: https://localhost:7298
+2023-04-22 11:57:02.2773 INFO Now listening on: http://localhost:5298
+2023-04-22 11:57:02.2773 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 11:57:02.2773 INFO Hosting environment: Development
+2023-04-22 11:57:02.2773 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 11:57:02.7482 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 11:57:02.9317 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 11:57:02.9317 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 11:57:02.9317 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 185.4018ms
+2023-04-22 11:57:02.9317 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.0728ms
+2023-04-22 11:57:02.9584 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.6833ms
+2023-04-22 11:57:02.9959 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 11:57:03.0764 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.4711ms
+2023-04-22 11:57:17.6559 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020 - -
+2023-04-22 11:57:17.6593 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:57:17.6772 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 11:57:17.7914 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 11:57:37.0964 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 19417.1242ms
+2023-04-22 11:57:37.0964 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 11:57:40.2172 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020 - - - 500 - - 22561.3063ms
+2023-04-22 12:01:07.8840 INFO Now listening on: https://localhost:7298
+2023-04-22 12:01:07.9111 INFO Now listening on: http://localhost:5298
+2023-04-22 12:01:07.9111 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 12:01:07.9111 INFO Hosting environment: Development
+2023-04-22 12:01:07.9111 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 12:01:08.7342 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 12:01:08.9027 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 12:01:08.9027 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 12:01:08.9027 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 169.2385ms
+2023-04-22 12:01:08.9101 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.3265ms
+2023-04-22 12:01:08.9101 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.7858ms
+2023-04-22 12:01:08.9605 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 12:01:09.0318 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 71.3682ms
+2023-04-22 12:01:12.6813 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usdhgf/2020 - -
+2023-04-22 12:01:12.6813 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 12:01:12.7019 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 12:01:12.7672 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 12:01:31.5859 INFO Now listening on: https://localhost:7298
+2023-04-22 12:01:31.6128 INFO Now listening on: http://localhost:5298
+2023-04-22 12:01:31.6128 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 12:01:31.6128 INFO Hosting environment: Development
+2023-04-22 12:01:31.6128 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 12:01:32.3694 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 12:01:32.5310 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 12:01:32.5310 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 162.1420ms
+2023-04-22 12:01:32.5310 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 12:01:32.5310 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.4318ms
+2023-04-22 12:01:32.5503 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.8647ms
+2023-04-22 12:01:32.5927 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 12:01:32.6653 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.6254ms
+2023-04-22 12:01:36.5298 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usdhgf/2020-10-05 - -
+2023-04-22 12:01:36.5330 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 12:01:36.5501 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 12:01:36.6166 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 12:01:40.1644 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usdhgf/2020-10-05
+2023-04-22 12:01:40.1644 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usdhgf/2020-10-05
+2023-04-22 12:01:40.3344 INFO Received HTTP response headers after 168.1035ms - 404
+2023-04-22 12:01:40.3344 INFO End processing HTTP request after 172.9179ms - 404
+2023-04-22 12:04:45.7525 INFO Now listening on: https://localhost:7298
+2023-04-22 12:04:45.7744 INFO Now listening on: http://localhost:5298
+2023-04-22 12:04:45.7744 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 12:04:45.7744 INFO Hosting environment: Development
+2023-04-22 12:04:45.7744 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 12:04:46.2434 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 12:04:46.3686 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 12:04:46.3686 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 12:04:46.3686 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 125.8072ms
+2023-04-22 12:04:46.3686 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.3489ms
+2023-04-22 12:04:46.3786 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.1319ms
+2023-04-22 12:04:46.4280 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 12:04:46.4866 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 58.6095ms
+2023-04-22 12:04:54.7294 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usdhgf/2020-10-05 - -
+2023-04-22 12:04:54.7294 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 12:04:54.7475 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 12:04:54.7623 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usdhgf/2020-10-05
+2023-04-22 12:04:54.7623 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usdhgf/2020-10-05
+2023-04-22 12:04:54.8934 INFO Received HTTP response headers after 129.6055ms - 404
+2023-04-22 12:04:54.8934 INFO End processing HTTP request after 133.7985ms - 404
+2023-04-22 12:04:54.8934 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 149.4221ms
+2023-04-22 12:04:54.8934 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 12:04:54.8934 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usdhgf/2020-10-05 - - - 404 - - 170.4416ms
+2023-04-22 15:36:40.6886 INFO Now listening on: https://localhost:7298
+2023-04-22 15:36:40.7107 INFO Now listening on: http://localhost:5298
+2023-04-22 15:36:40.7119 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 15:36:40.7119 INFO Hosting environment: Development
+2023-04-22 15:36:40.7119 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 15:36:41.4956 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 15:36:41.6460 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 151.0114ms
+2023-04-22 15:36:41.6460 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 15:36:41.6502 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.2714ms
+2023-04-22 15:36:41.6502 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 15:36:41.6779 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.4573ms
+2023-04-22 15:36:41.7083 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 15:36:41.7488 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 40.5364ms
+2023-04-22 15:36:53.8483 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usdhgf/2020-10-05 - -
+2023-04-22 15:36:53.8530 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:36:53.8837 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 15:36:53.9697 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usdhgf/2020-10-05
+2023-04-22 15:36:53.9697 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usdhgf/2020-10-05
+2023-04-22 15:36:53.9951 INFO Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ExchangeRatesApi.Services.ExchangeRatesService+<GetCurrencyAverage>d__2, ExchangeRatesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-22 15:36:53.9951 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 121.7227ms
+2023-04-22 15:36:53.9951 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:36:54.1030 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usdhgf/2020-10-05 - - - 500 - application/json;+charset=utf-8 254.7698ms
+2023-04-22 15:36:54.1030 INFO Received HTTP response headers after 133.8842ms - 404
+2023-04-22 15:36:54.1030 INFO End processing HTTP request after 138.878ms - 404
+2023-04-22 15:37:13.1850 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020-10-05 - -
+2023-04-22 15:37:13.1850 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:37:13.1850 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 15:37:13.1850 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 15:37:13.1850 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 15:37:13.1850 INFO Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ExchangeRatesApi.Services.ExchangeRatesService+<GetCurrencyAverage>d__2, ExchangeRatesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-22 15:37:13.1850 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 0.9476ms
+2023-04-22 15:37:13.1850 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:37:13.1850 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020-10-05 - - - 500 - application/json;+charset=utf-8 2.7731ms
+2023-04-22 15:37:13.2580 INFO Received HTTP response headers after 71.9073ms - 200
+2023-04-22 15:37:13.2580 INFO End processing HTTP request after 72.0315ms - 200
+2023-04-22 15:37:26.2925 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020-10-05 - -
+2023-04-22 15:37:26.2925 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:37:26.2925 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 15:37:26.2925 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 15:37:26.2925 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 15:37:26.2925 INFO Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ExchangeRatesApi.Services.ExchangeRatesService+<GetCurrencyAverage>d__2, ExchangeRatesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-22 15:37:26.2925 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 1.2654ms
+2023-04-22 15:37:26.2925 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:37:26.2925 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020-10-05 - - - 500 - application/json;+charset=utf-8 4.2847ms
+2023-04-22 15:37:26.4272 INFO Received HTTP response headers after 132.2841ms - 200
+2023-04-22 15:37:26.4272 INFO End processing HTTP request after 132.4079ms - 200
+2023-04-22 15:38:04.3125 INFO Now listening on: https://localhost:7298
+2023-04-22 15:38:04.3368 INFO Now listening on: http://localhost:5298
+2023-04-22 15:38:04.3368 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 15:38:04.3368 INFO Hosting environment: Development
+2023-04-22 15:38:04.3368 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 15:38:04.7303 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 15:38:04.9436 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 15:38:04.9436 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 15:38:04.9436 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.9741ms
+2023-04-22 15:38:04.9436 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 216.0233ms
+2023-04-22 15:38:04.9665 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.9426ms
+2023-04-22 15:38:05.0148 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 15:38:05.0785 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.7203ms
+2023-04-22 15:38:09.4782 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020-10-05 - -
+2023-04-22 15:38:09.4782 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:38:09.4995 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRates (ExchangeRatesApi).
+2023-04-22 15:38:13.7860 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 15:38:17.2634 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 15:38:17.2634 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 15:38:20.6655 INFO Executed action method ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6877.4324ms.
+2023-04-22 15:38:20.6655 INFO Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ExchangeRatesApi.Services.ExchangeRatesService+<GetCurrencyAverage>d__2, ExchangeRatesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-22 15:38:20.6833 INFO Received HTTP response headers after 3418.2959ms - 408
+2023-04-22 15:38:20.6833 INFO End processing HTTP request after 3422.9057ms - 408
+2023-04-22 15:38:20.7287 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi) in 11227.4787ms
+2023-04-22 15:38:20.7287 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRates.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:38:40.6018 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020-10-05 - - - 500 - application/json;+charset=utf-8 31123.5491ms
+2023-04-22 15:39:22.0663 INFO Now listening on: https://localhost:7298
+2023-04-22 15:39:22.0922 INFO Now listening on: http://localhost:5298
+2023-04-22 15:39:22.0922 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 15:39:22.0922 INFO Hosting environment: Development
+2023-04-22 15:39:22.0922 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 15:39:22.7483 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 15:39:22.9223 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 175.1999ms
+2023-04-22 15:39:22.9223 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 15:39:22.9223 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 15:39:22.9318 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.1106ms
+2023-04-22 15:39:22.9318 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.6764ms
+2023-04-22 15:39:22.9852 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 15:39:23.0339 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 48.7031ms
+2023-04-22 15:39:24.0473 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020-10-05 - -
+2023-04-22 15:39:24.0473 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:39:24.0672 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:39:24.1321 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 15:39:32.8292 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 15:39:32.8292 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 15:39:58.2733 INFO Executed action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 34136.8053ms.
+2023-04-22 15:39:58.2758 INFO Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[ExchangeRatesApi.Services.ExchangeRatesService+<GetCurrencyAverage>d__2, ExchangeRatesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-04-22 15:39:58.2896 INFO Received HTTP response headers after 25458.6854ms - 408
+2023-04-22 15:39:58.2896 INFO End processing HTTP request after 25463.2718ms - 408
+2023-04-22 15:41:18.1573 INFO Now listening on: https://localhost:7298
+2023-04-22 15:41:18.1807 INFO Now listening on: http://localhost:5298
+2023-04-22 15:41:18.1807 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 15:41:18.1807 INFO Hosting environment: Development
+2023-04-22 15:41:18.1807 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 15:41:18.9877 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 15:41:19.2092 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 15:41:19.2092 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 15:41:19.2092 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 223.2475ms
+2023-04-22 15:41:19.2527 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.5616ms
+2023-04-22 15:41:19.2629 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.5232ms
+2023-04-22 15:41:19.3008 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 15:41:19.3700 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.1717ms
+2023-04-22 15:41:20.1154 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2020-10-05 - -
+2023-04-22 15:41:20.1186 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:41:20.1370 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:41:20.2092 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 15:42:00.0207 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 15:42:00.0207 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2020-10-05
+2023-04-22 15:48:19.9031 INFO Now listening on: https://localhost:7298
+2023-04-22 15:48:19.9288 INFO Now listening on: http://localhost:5298
+2023-04-22 15:48:19.9302 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 15:48:19.9302 INFO Hosting environment: Development
+2023-04-22 15:48:19.9302 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 15:48:20.6598 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 15:48:20.8125 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 153.2794ms
+2023-04-22 15:48:20.8125 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 15:48:20.8125 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 15:48:20.8226 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 8.1881ms
+2023-04-22 15:48:20.8226 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.8500ms
+2023-04-22 15:48:20.8912 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 15:48:20.9386 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 47.4923ms
+2023-04-22 15:48:22.9663 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - -
+2023-04-22 15:48:22.9663 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:48:22.9871 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:48:23.0529 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 15:48:44.7236 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2021-10-05
+2023-04-22 15:48:44.7236 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2021-10-05
+2023-04-22 15:50:59.3565 INFO Now listening on: https://localhost:7298
+2023-04-22 15:50:59.3841 INFO Now listening on: http://localhost:5298
+2023-04-22 15:50:59.3841 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 15:50:59.3841 INFO Hosting environment: Development
+2023-04-22 15:50:59.3841 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 15:51:00.1331 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 15:51:00.2777 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 15:51:00.2777 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 15:51:00.2777 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 144.9180ms
+2023-04-22 15:51:00.2777 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.8433ms
+2023-04-22 15:51:00.2942 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.4870ms
+2023-04-22 15:51:00.3358 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 15:51:00.3822 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 46.3125ms
+2023-04-22 15:51:04.5575 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - -
+2023-04-22 15:51:04.5575 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:51:04.5777 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:51:04.6414 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 15:51:13.8482 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2021-10-05
+2023-04-22 15:51:13.8482 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2021-10-05
+2023-04-22 15:51:27.2111 INFO Executed action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 22567.6986ms.
+2023-04-22 15:51:27.2137 INFO Executing OkObjectResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Decimal, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Runtime.CompilerServices.IAsyncStateMachine, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-04-22 15:51:27.2280 INFO Received HTTP response headers after 13378.1326ms - 408
+2023-04-22 15:51:27.2280 INFO End processing HTTP request after 13382.8718ms - 408
+2023-04-22 15:51:46.2611 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 41681.6081ms
+2023-04-22 15:51:46.2611 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:51:58.1212 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - - - 500 - application/json;+charset=utf-8 53563.7130ms
+2023-04-22 15:52:32.7621 INFO Now listening on: https://localhost:7298
+2023-04-22 15:52:32.7871 INFO Now listening on: http://localhost:5298
+2023-04-22 15:52:32.7871 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 15:52:32.7871 INFO Hosting environment: Development
+2023-04-22 15:52:32.7871 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 15:52:33.2880 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 15:52:33.4313 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 143.9949ms
+2023-04-22 15:52:33.4313 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 15:52:33.4313 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 15:52:33.4313 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.3220ms
+2023-04-22 15:52:33.4465 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.7653ms
+2023-04-22 15:52:33.4974 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 15:52:33.5446 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 47.1590ms
+2023-04-22 15:52:37.1274 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - -
+2023-04-22 15:52:37.1274 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:52:37.1473 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:52:37.2157 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 15:52:43.4223 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2021-10-05
+2023-04-22 15:52:43.4223 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2021-10-05
+2023-04-22 15:52:43.5778 INFO Received HTTP response headers after 153.7724ms - 200
+2023-04-22 15:52:43.5778 INFO End processing HTTP request after 158.3333ms - 200
+2023-04-22 15:52:55.2570 INFO Executed action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18039.2735ms.
+2023-04-22 15:52:55.2599 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 15:52:55.2599 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 18115.8948ms
+2023-04-22 15:52:55.2599 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:52:57.8178 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - - - 200 - application/json;+charset=utf-8 20690.4044ms
+2023-04-22 15:53:31.6485 INFO Now listening on: https://localhost:7298
+2023-04-22 15:53:31.6694 INFO Now listening on: http://localhost:5298
+2023-04-22 15:53:31.6694 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 15:53:31.6694 INFO Hosting environment: Development
+2023-04-22 15:53:31.6694 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 15:53:32.1051 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 15:53:32.2184 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 114.4954ms
+2023-04-22 15:53:32.2184 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 15:53:32.2184 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 15:53:32.2281 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.9400ms
+2023-04-22 15:53:32.2281 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.3272ms
+2023-04-22 15:53:32.2808 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 15:53:32.3297 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 48.9004ms
+2023-04-22 15:53:33.8657 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021- - -
+2023-04-22 15:53:33.8691 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:53:33.8834 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:53:33.8834 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 10.9558ms
+2023-04-22 15:53:33.8834 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:53:33.8834 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021- - - - 400 - - 30.9866ms
+2023-04-22 15:53:37.9964 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10 - -
+2023-04-22 15:53:37.9964 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:53:37.9964 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:53:37.9964 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 0.5923ms
+2023-04-22 15:53:37.9964 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:53:37.9964 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10 - - - 400 - - 1.4945ms
+2023-04-22 15:53:44.4404 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-42 - -
+2023-04-22 15:53:44.4404 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:53:44.4404 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:53:44.4404 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 0.7161ms
+2023-04-22 15:53:44.4404 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:53:44.4404 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-42 - - - 400 - - 1.9416ms
+2023-04-22 15:53:50.3720 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-0 - -
+2023-04-22 15:53:50.3720 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:53:50.3720 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:53:50.3720 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 0.3315ms
+2023-04-22 15:53:50.3720 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:53:50.3720 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-0 - - - 400 - - 1.0136ms
+2023-04-22 15:53:58.0187 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021.10.05 - -
+2023-04-22 15:53:58.0187 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:53:58.0187 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:53:58.0187 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 0.3863ms
+2023-04-22 15:53:58.0187 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:53:58.0187 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021.10.05 - - - 400 - - 1.0899ms
+2023-04-22 15:54:07.0133 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/asd/2021-10-05 - -
+2023-04-22 15:54:07.0133 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:54:07.0133 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:54:07.0133 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/asd/2021-10-05
+2023-04-22 15:54:07.0133 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/asd/2021-10-05
+2023-04-22 15:54:07.2020 INFO Received HTTP response headers after 182.9786ms - 404
+2023-04-22 15:54:07.2020 INFO End processing HTTP request after 186.8331ms - 404
+2023-04-22 15:54:07.2020 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 192.0812ms
+2023-04-22 15:54:07.2020 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:54:07.2020 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/asd/2021-10-05 - - - 404 - - 193.1070ms
+2023-04-22 15:54:12.6669 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/buc/2021-10-05 - -
+2023-04-22 15:54:12.6669 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:54:12.6669 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:54:12.6669 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/buc/2021-10-05
+2023-04-22 15:54:12.6669 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/buc/2021-10-05
+2023-04-22 15:54:12.7586 INFO Received HTTP response headers after 91.1075ms - 404
+2023-04-22 15:54:12.7586 INFO End processing HTTP request after 91.21ms - 404
+2023-04-22 15:54:12.7586 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 91.8061ms
+2023-04-22 15:54:12.7586 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:54:12.7586 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/buc/2021-10-05 - - - 404 - - 92.3976ms
+2023-04-22 15:54:14.9325 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/bucfdsfd/2021-10-05 - -
+2023-04-22 15:54:14.9325 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:54:14.9325 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:54:14.9325 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/bucfdsfd/2021-10-05
+2023-04-22 15:54:14.9325 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/bucfdsfd/2021-10-05
+2023-04-22 15:54:15.0191 INFO Received HTTP response headers after 86.0624ms - 404
+2023-04-22 15:54:15.0191 INFO End processing HTTP request after 86.2517ms - 404
+2023-04-22 15:54:15.0191 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 87.4172ms
+2023-04-22 15:54:15.0191 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:54:15.0191 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/bucfdsfd/2021-10-05 - - - 404 - - 88.4277ms
+2023-04-22 15:54:23.6607 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - -
+2023-04-22 15:54:23.6607 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:54:23.6607 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 15:54:23.6607 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2021-10-05
+2023-04-22 15:54:23.6607 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/2021-10-05
+2023-04-22 15:54:23.7531 INFO Received HTTP response headers after 91.7688ms - 200
+2023-04-22 15:54:23.7531 INFO End processing HTTP request after 91.8644ms - 200
+2023-04-22 15:54:23.8161 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 15:54:23.8161 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 156.6689ms
+2023-04-22 15:54:23.8161 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 15:54:23.8161 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - - - 200 - application/json;+charset=utf-8 157.1073ms
+2023-04-22 16:30:59.6566 INFO Now listening on: https://localhost:7298
+2023-04-22 16:30:59.6771 INFO Now listening on: http://localhost:5298
+2023-04-22 16:30:59.6771 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 16:30:59.6771 INFO Hosting environment: Development
+2023-04-22 16:30:59.6771 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 16:31:00.2178 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 16:31:00.3329 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 16:31:00.3329 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 115.9022ms
+2023-04-22 16:31:00.3329 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 16:31:00.3365 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.6628ms
+2023-04-22 16:31:00.3365 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.0180ms
+2023-04-22 16:31:00.4011 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 16:31:00.4520 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 50.9789ms
+2023-04-22 16:31:04.7553 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - -
+2023-04-22 16:31:04.7553 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:31:04.7733 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 16:31:04.7873 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/usd/last/10
+2023-04-22 16:31:04.7873 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/usd/last/10
+2023-04-22 16:31:04.9287 INFO Received HTTP response headers after 139.9894ms - 200
+2023-04-22 16:31:04.9287 INFO End processing HTTP request after 143.9122ms - 200
+2023-04-22 16:31:04.9955 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 16:31:04.9955 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 224.3643ms
+2023-04-22 16:31:04.9955 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:31:04.9955 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - - - 200 - application/json;+charset=utf-8 244.6084ms
+2023-04-22 16:31:37.9917 INFO Now listening on: https://localhost:7298
+2023-04-22 16:31:38.0257 INFO Now listening on: http://localhost:5298
+2023-04-22 16:31:38.0257 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 16:31:38.0257 INFO Hosting environment: Development
+2023-04-22 16:31:38.0257 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 16:31:38.6178 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 16:31:38.7848 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 16:31:38.7848 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 16:31:38.7848 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 169.0309ms
+2023-04-22 16:31:38.7848 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.9998ms
+2023-04-22 16:31:38.8015 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.6750ms
+2023-04-22 16:31:38.8442 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 16:31:38.8913 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 47.1353ms
+2023-04-22 16:31:42.0211 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - -
+2023-04-22 16:31:42.0257 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:31:42.0442 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 16:31:42.1071 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 16:31:48.9748 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/usd/last/10
+2023-04-22 16:31:48.9748 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/usd/last/10
+2023-04-22 16:31:49.1255 INFO Received HTTP response headers after 148.7089ms - 200
+2023-04-22 16:31:49.1255 INFO End processing HTTP request after 153.6748ms - 200
+2023-04-22 16:33:21.6872 INFO Now listening on: https://localhost:7298
+2023-04-22 16:33:21.7144 INFO Now listening on: http://localhost:5298
+2023-04-22 16:33:21.7144 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 16:33:21.7144 INFO Hosting environment: Development
+2023-04-22 16:33:21.7144 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 16:33:22.4179 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 16:33:22.5799 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 16:33:22.5799 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 16:33:22.5799 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 162.4375ms
+2023-04-22 16:33:22.5874 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.4085ms
+2023-04-22 16:33:22.5874 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.4126ms
+2023-04-22 16:33:22.6378 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 16:33:22.6897 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 51.9539ms
+2023-04-22 16:33:25.2567 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - -
+2023-04-22 16:33:25.2600 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:33:25.2777 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 16:33:25.3420 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 16:33:29.2388 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:33:29.2388 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:33:29.4056 INFO Received HTTP response headers after 165.0363ms - 200
+2023-04-22 16:33:29.4056 INFO End processing HTTP request after 169.499ms - 200
+2023-04-22 16:33:48.7884 INFO Executed action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23444.4431ms.
+2023-04-22 16:33:48.7913 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 16:33:48.7913 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 23516.334ms
+2023-04-22 16:33:48.7913 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:33:53.3436 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - - - 200 - application/json;+charset=utf-8 28086.8913ms
+2023-04-22 16:43:09.2143 INFO Now listening on: https://localhost:7298
+2023-04-22 16:43:09.2350 INFO Now listening on: http://localhost:5298
+2023-04-22 16:43:09.2350 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 16:43:09.2350 INFO Hosting environment: Development
+2023-04-22 16:43:09.2350 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 16:44:25.1883 INFO Now listening on: https://localhost:7298
+2023-04-22 16:44:25.2084 INFO Now listening on: http://localhost:5298
+2023-04-22 16:44:25.2084 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 16:44:25.2084 INFO Hosting environment: Development
+2023-04-22 16:44:25.2084 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 16:49:20.4252 INFO Now listening on: https://localhost:7298
+2023-04-22 16:49:20.4457 INFO Now listening on: http://localhost:5298
+2023-04-22 16:49:20.4468 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 16:49:20.4468 INFO Hosting environment: Development
+2023-04-22 16:49:20.4468 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 16:50:56.6299 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - -
+2023-04-22 16:50:56.6574 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:50:56.6732 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 16:50:56.6891 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:50:56.6891 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:50:56.8352 INFO Received HTTP response headers after 143.4287ms - 200
+2023-04-22 16:50:56.8352 INFO End processing HTTP request after 148.7935ms - 200
+2023-04-22 16:50:56.9030 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 16:50:56.9030 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 235.5838ms
+2023-04-22 16:50:56.9030 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:50:56.9030 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - - - 200 - application/json;+charset=utf-8 283.0402ms
+2023-04-22 16:50:58.7715 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - -
+2023-04-22 16:50:58.7715 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:50:58.7715 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 16:50:58.7715 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:50:58.7715 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:50:58.8123 INFO Received HTTP response headers after 39.7604ms - 200
+2023-04-22 16:50:58.8123 INFO End processing HTTP request after 39.8986ms - 200
+2023-04-22 16:50:58.8123 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 16:50:58.8123 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 40.8697ms
+2023-04-22 16:50:58.8123 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:50:58.8123 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - - - 200 - application/json;+charset=utf-8 41.7387ms
+2023-04-22 16:50:59.6337 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - -
+2023-04-22 16:50:59.6337 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:50:59.6337 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 16:50:59.6337 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:50:59.6337 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:50:59.6998 INFO Received HTTP response headers after 62.6524ms - 200
+2023-04-22 16:50:59.6998 INFO End processing HTTP request after 62.8086ms - 200
+2023-04-22 16:50:59.6998 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 16:50:59.6998 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 64.3459ms
+2023-04-22 16:50:59.6998 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:50:59.6998 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - - - 200 - application/json;+charset=utf-8 66.8838ms
+2023-04-22 16:51:00.5325 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - -
+2023-04-22 16:51:00.5325 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:51:00.5325 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 16:51:00.5325 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:51:00.5325 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:51:00.5696 INFO Received HTTP response headers after 36.6358ms - 200
+2023-04-22 16:51:00.5696 INFO End processing HTTP request after 36.7367ms - 200
+2023-04-22 16:51:00.5696 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 16:51:00.5696 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 37.2282ms
+2023-04-22 16:51:00.5696 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:51:00.5696 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-05 - - - 200 - application/json;+charset=utf-8 37.6045ms
+2023-04-22 16:51:16.4307 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-04 - -
+2023-04-22 16:51:16.4307 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:51:16.4307 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 16:51:16.4307 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:51:16.4307 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/usd/last/10
+2023-04-22 16:51:16.5068 INFO Received HTTP response headers after 75.5556ms - 200
+2023-04-22 16:51:16.5068 INFO End processing HTTP request after 75.6876ms - 200
+2023-04-22 16:51:16.5068 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 16:51:16.5068 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 76.407ms
+2023-04-22 16:51:16.5068 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:51:16.5068 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/usd/2021-10-04 - - - 200 - application/json;+charset=utf-8 77.0413ms
+2023-04-22 16:51:25.6930 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/2021-10-05 - -
+2023-04-22 16:51:25.6930 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:51:25.6930 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 16:51:25.6930 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/10
+2023-04-22 16:51:25.6930 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/10
+2023-04-22 16:51:25.7748 INFO Received HTTP response headers after 81.2118ms - 200
+2023-04-22 16:51:25.7748 INFO End processing HTTP request after 81.3388ms - 200
+2023-04-22 16:51:25.7748 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 16:51:25.7748 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 81.9042ms
+2023-04-22 16:51:25.7748 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:51:25.7748 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/2021-10-05 - - - 200 - application/json;+charset=utf-8 82.3594ms
+2023-04-22 16:53:16.8478 INFO Now listening on: https://localhost:7298
+2023-04-22 16:53:16.8687 INFO Now listening on: http://localhost:5298
+2023-04-22 16:53:16.8687 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 16:53:16.8703 INFO Hosting environment: Development
+2023-04-22 16:53:16.8703 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 16:53:38.1461 INFO Request starting HTTP/2 GET https://localhost:7298/api/ExchangeRates/gbp/2021-10-05 - -
+2023-04-22 16:53:38.1790 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:53:38.2098 INFO Route matched with {action = "GetCurrencyAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetCurrencyAverage(System.String, System.String) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 16:53:38.2932 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/10
+2023-04-22 16:53:38.2932 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/10
+2023-04-22 16:53:38.5529 INFO Received HTTP response headers after 257.3029ms - 200
+2023-04-22 16:53:38.5529 INFO End processing HTTP request after 262.3785ms - 200
+2023-04-22 16:53:38.6423 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 16:53:38.6505 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi) in 438.8951ms
+2023-04-22 16:53:38.6505 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetCurrencyAverage (ExchangeRatesApi)'
+2023-04-22 16:53:38.6505 INFO Request finished HTTP/2 GET https://localhost:7298/api/ExchangeRates/gbp/2021-10-05 - - - 200 - application/json;+charset=utf-8 508.5319ms
+2023-04-22 16:53:38.9184 INFO Request starting HTTP/2 GET https://localhost:7298/favicon.ico - -
+2023-04-22 16:53:38.9184 INFO Request finished HTTP/2 GET https://localhost:7298/favicon.ico - - - 404 0 - 0.5080ms
+2023-04-22 16:58:48.9941 INFO Now listening on: https://localhost:7298
+2023-04-22 16:58:49.0155 INFO Now listening on: http://localhost:5298
+2023-04-22 16:58:49.0155 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 16:58:49.0155 INFO Hosting environment: Development
+2023-04-22 16:58:49.0155 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 16:59:52.1235 INFO Application is shutting down...
+2023-04-22 17:09:45.3703 INFO Now listening on: https://localhost:7298
+2023-04-22 17:09:45.3907 INFO Now listening on: http://localhost:5298
+2023-04-22 17:09:45.3907 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 17:09:45.3907 INFO Hosting environment: Development
+2023-04-22 17:09:45.3907 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 17:09:46.2192 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 17:09:46.3531 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 17:09:46.3531 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 17:09:46.3531 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.5129ms
+2023-04-22 17:09:46.3531 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 136.6807ms
+2023-04-22 17:09:46.3861 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.6507ms
+2023-04-22 17:09:46.4181 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 17:09:46.4616 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 43.4474ms
+2023-04-22 17:09:54.1693 INFO Request starting HTTP/2 GET https://localhost:7298/ - -
+2023-04-22 17:09:54.1693 INFO Request finished HTTP/2 GET https://localhost:7298/ - - - 404 0 - 2.9881ms
+2023-04-22 17:09:58.2479 INFO Request starting HTTP/2 GET https://localhost:7298/ - -
+2023-04-22 17:09:58.2479 INFO Request finished HTTP/2 GET https://localhost:7298/ - - - 404 0 - 0.6730ms
+2023-04-22 17:10:03.2139 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 17:10:03.2139 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 0.5109ms
+2023-04-22 17:14:52.1874 INFO Now listening on: https://localhost:50000
+2023-04-22 17:14:52.2084 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 17:14:52.2084 INFO Hosting environment: Development
+2023-04-22 17:14:52.2084 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 17:22:20.1725 INFO Now listening on: https://localhost:7298
+2023-04-22 17:22:20.1936 INFO Now listening on: http://localhost:5298
+2023-04-22 17:22:20.1936 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 17:22:20.1952 INFO Hosting environment: Development
+2023-04-22 17:22:20.1952 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 17:22:20.6530 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 17:22:20.7698 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 117.6204ms
+2023-04-22 17:22:20.7802 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 17:22:20.7802 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 17:22:20.7802 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.0476ms
+2023-04-22 17:22:20.7802 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.6084ms
+2023-04-22 17:22:20.8314 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 17:22:20.8946 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.2062ms
+2023-04-22 17:22:37.4570 INFO Request starting HTTP/2 GET https://localhost:7298/api/ExchangeRates/gbp/last/5 - -
+2023-04-22 17:22:37.4570 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 17:22:37.4763 INFO Route matched with {action = "GetMinMaxAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExchangeRatesApi.Models.MinMaxAverage]] GetMinMaxAverage(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 17:22:37.5450 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/5
+2023-04-22 17:22:37.5450 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/5
+2023-04-22 17:22:37.6851 INFO Received HTTP response headers after 138.517ms - 200
+2023-04-22 17:22:37.6851 INFO End processing HTTP request after 142.82ms - 200
+2023-04-22 17:22:37.7517 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.Models.MinMaxAverage'.
+2023-04-22 17:22:37.7517 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi) in 277.7015ms
+2023-04-22 17:22:37.7517 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 17:22:37.7517 INFO Request finished HTTP/2 GET https://localhost:7298/api/ExchangeRates/gbp/last/5 - - - 200 - application/json;+charset=utf-8 299.5495ms
+2023-04-22 17:23:30.8915 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/last/5 - -
+2023-04-22 17:23:30.8915 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 17:23:30.8915 INFO Route matched with {action = "GetMinMaxAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExchangeRatesApi.Models.MinMaxAverage]] GetMinMaxAverage(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 17:23:30.8915 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/5
+2023-04-22 17:23:30.8915 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/5
+2023-04-22 17:23:30.9689 INFO Received HTTP response headers after 76.2042ms - 200
+2023-04-22 17:23:30.9689 INFO End processing HTTP request after 76.4086ms - 200
+2023-04-22 17:23:30.9689 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.Models.MinMaxAverage'.
+2023-04-22 17:23:30.9689 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi) in 79.1599ms
+2023-04-22 17:23:30.9689 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 17:23:30.9689 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/last/5 - - - 200 - application/json;+charset=utf-8 80.1941ms
+2023-04-22 17:23:54.0554 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/last/256 - -
+2023-04-22 17:23:54.0554 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 17:23:54.0554 INFO Route matched with {action = "GetMinMaxAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExchangeRatesApi.Models.MinMaxAverage]] GetMinMaxAverage(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 17:23:54.0554 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi) in 1.2802ms
+2023-04-22 17:23:54.0554 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 17:23:54.0554 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/last/256 - - - 400 - - 3.0526ms
+2023-04-22 17:24:02.0892 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/last/-2 - -
+2023-04-22 17:24:02.0892 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 17:24:02.0892 INFO Route matched with {action = "GetMinMaxAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExchangeRatesApi.Models.MinMaxAverage]] GetMinMaxAverage(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 17:24:02.0892 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi) in 0.3218ms
+2023-04-22 17:24:02.0892 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 17:24:02.0892 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/last/-2 - - - 400 - - 0.9070ms
+2023-04-22 18:13:04.4360 INFO Now listening on: https://localhost:7298
+2023-04-22 18:13:04.4569 INFO Now listening on: http://localhost:5298
+2023-04-22 18:13:04.4569 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:13:04.4569 INFO Hosting environment: Development
+2023-04-22 18:13:04.4569 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:13:04.6560 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:13:04.7637 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:13:04.7637 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:13:04.7637 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 108.3172ms
+2023-04-22 18:13:04.7637 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.7164ms
+2023-04-22 18:13:04.7637 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.4330ms
+2023-04-22 18:13:04.8705 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:13:04.9227 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 52.2682ms
+2023-04-22 18:13:06.5743 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:13:06.5743 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 3.8310ms
+2023-04-22 18:13:06.5743 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:13:06.5743 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:13:06.5743 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 0.2474ms
+2023-04-22 18:13:06.5743 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.8908ms
+2023-04-22 18:13:06.6371 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:13:06.6371 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.2321ms
+2023-04-22 18:13:27.9378 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/10 - -
+2023-04-22 18:13:27.9378 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:13:27.9553 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 18:13:27.9695 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/10
+2023-04-22 18:13:27.9695 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/10
+2023-04-22 18:13:28.1200 INFO Received HTTP response headers after 149.013ms - 200
+2023-04-22 18:13:28.1200 INFO End processing HTTP request after 152.9944ms - 200
+2023-04-22 18:13:28.1856 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 18:13:28.1856 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) in 232.2444ms
+2023-04-22 18:13:28.1856 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:13:28.1856 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/10 - - - 200 - application/json;+charset=utf-8 252.1022ms
+2023-04-22 18:15:01.6822 INFO Now listening on: https://localhost:7298
+2023-04-22 18:15:01.7031 INFO Now listening on: http://localhost:5298
+2023-04-22 18:15:01.7031 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:15:01.7031 INFO Hosting environment: Development
+2023-04-22 18:15:01.7031 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:15:01.9152 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:15:02.0226 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:15:02.0226 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:15:02.0226 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 108.2621ms
+2023-04-22 18:15:02.0242 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.5430ms
+2023-04-22 18:15:02.0242 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.2920ms
+2023-04-22 18:15:02.0733 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:15:02.1200 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 46.6414ms
+2023-04-22 18:15:02.8688 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:15:02.8688 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 4.8078ms
+2023-04-22 18:15:02.8688 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:15:02.8688 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 0.2907ms
+2023-04-22 18:15:02.8688 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:15:02.8688 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.4872ms
+2023-04-22 18:15:02.9261 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:15:02.9261 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.2315ms
+2023-04-22 18:15:05.4779 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/10 - -
+2023-04-22 18:15:05.4779 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:15:05.4952 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 18:15:05.5092 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/10
+2023-04-22 18:15:05.5092 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/10
+2023-04-22 18:15:05.6616 INFO Received HTTP response headers after 150.5939ms - 200
+2023-04-22 18:15:05.6616 INFO End processing HTTP request after 154.9762ms - 200
+2023-04-22 18:15:05.7290 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 18:15:05.7290 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) in 235.8176ms
+2023-04-22 18:15:05.7290 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:15:05.7290 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/10 - - - 200 - application/json;+charset=utf-8 255.3804ms
+2023-04-22 18:15:14.4655 INFO Now listening on: https://localhost:7298
+2023-04-22 18:15:14.4864 INFO Now listening on: http://localhost:5298
+2023-04-22 18:15:14.4864 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:15:14.4864 INFO Hosting environment: Development
+2023-04-22 18:15:14.4864 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:15:14.7156 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:15:14.8217 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:15:14.8217 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:15:14.8217 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 106.8471ms
+2023-04-22 18:15:14.8217 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.2119ms
+2023-04-22 18:15:14.8217 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.6385ms
+2023-04-22 18:15:14.8682 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:15:14.9141 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 45.9379ms
+2023-04-22 18:15:18.2003 INFO Now listening on: https://localhost:7298
+2023-04-22 18:15:18.2247 INFO Now listening on: http://localhost:5298
+2023-04-22 18:15:18.2247 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:15:18.2267 INFO Hosting environment: Development
+2023-04-22 18:15:18.2267 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:15:18.4787 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/10 - -
+2023-04-22 18:15:18.5542 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:15:18.5814 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 18:15:18.7136 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 18:15:24.4228 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/10
+2023-04-22 18:15:24.4228 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/10
+2023-04-22 18:15:24.4311 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:15:24.5648 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:15:24.5648 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:15:24.5648 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 134.6978ms
+2023-04-22 18:15:24.5737 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 8.8837ms
+2023-04-22 18:15:24.5737 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.6726ms
+2023-04-22 18:15:24.6146 INFO Received HTTP response headers after 186.7793ms - 200
+2023-04-22 18:15:24.6146 INFO End processing HTTP request after 195.4809ms - 200
+2023-04-22 18:15:24.6406 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:15:24.7091 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.5639ms
+2023-04-22 18:15:53.2759 INFO Now listening on: https://localhost:7298
+2023-04-22 18:15:53.3046 INFO Now listening on: http://localhost:5298
+2023-04-22 18:15:53.3067 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:15:53.3067 INFO Hosting environment: Development
+2023-04-22 18:15:53.3067 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:15:53.9598 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:15:54.1006 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:15:54.1006 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:15:54.1006 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 142.3968ms
+2023-04-22 18:15:54.1083 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.7079ms
+2023-04-22 18:15:54.1083 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.1499ms
+2023-04-22 18:15:54.1579 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:15:54.2215 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.7304ms
+2023-04-22 18:15:57.6581 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/10 - -
+2023-04-22 18:15:57.6581 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:15:57.6794 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 18:15:57.7480 INFO Executing action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) - Validation state: Valid
+2023-04-22 18:16:00.4966 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/10
+2023-04-22 18:16:00.4966 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/10
+2023-04-22 18:16:00.6451 INFO Received HTTP response headers after 146.6638ms - 200
+2023-04-22 18:16:00.6451 INFO End processing HTTP request after 151.3271ms - 200
+2023-04-22 18:16:24.5712 INFO Executed action method ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 26821.2222ms.
+2023-04-22 18:16:24.5712 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 18:16:24.5712 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) in 26897.9341ms
+2023-04-22 18:16:24.5712 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:16:30.8031 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/10 - - - 200 - application/json;+charset=utf-8 33144.9443ms
+2023-04-22 18:17:40.1287 INFO Now listening on: https://localhost:7298
+2023-04-22 18:17:40.1485 INFO Now listening on: http://localhost:5298
+2023-04-22 18:17:40.1496 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:17:40.1496 INFO Hosting environment: Development
+2023-04-22 18:17:40.1496 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:17:40.5806 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:17:40.6931 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 113.2446ms
+2023-04-22 18:17:40.6931 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:17:40.6931 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:17:40.6965 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.0167ms
+2023-04-22 18:17:40.6965 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.6101ms
+2023-04-22 18:17:40.7432 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:17:40.7967 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 53.5641ms
+2023-04-22 18:17:45.3859 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/5 - -
+2023-04-22 18:17:45.3859 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:17:45.4043 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 18:17:45.4182 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/5
+2023-04-22 18:17:45.4182 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/5
+2023-04-22 18:17:45.5390 INFO Received HTTP response headers after 118.6929ms - 200
+2023-04-22 18:17:45.5395 INFO End processing HTTP request after 123.4161ms - 200
+2023-04-22 18:17:45.6046 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 18:17:45.6046 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) in 202.3687ms
+2023-04-22 18:17:45.6046 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:17:45.6046 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/5 - - - 200 - application/json;+charset=utf-8 223.0399ms
+2023-04-22 18:17:50.2999 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/200 - -
+2023-04-22 18:17:50.2999 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:17:50.2999 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 18:17:50.2999 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/200
+2023-04-22 18:17:50.2999 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/200
+2023-04-22 18:17:50.4232 INFO Received HTTP response headers after 120.6959ms - 200
+2023-04-22 18:17:50.4232 INFO End processing HTTP request after 120.8453ms - 200
+2023-04-22 18:17:50.4606 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 18:17:50.4606 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) in 159.2984ms
+2023-04-22 18:17:50.4606 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:17:50.4606 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/200 - - - 200 - application/json;+charset=utf-8 161.0589ms
+2023-04-22 18:33:17.0766 INFO Now listening on: https://localhost:7298
+2023-04-22 18:33:17.0980 INFO Now listening on: http://localhost:5298
+2023-04-22 18:33:17.0980 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:33:17.0980 INFO Hosting environment: Development
+2023-04-22 18:33:17.0980 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:33:17.3214 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:33:17.4294 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:33:17.4294 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:33:17.4291 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 108.2600ms
+2023-04-22 18:33:17.4294 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.5982ms
+2023-04-22 18:33:17.4294 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.7263ms
+2023-04-22 18:33:17.5397 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:33:17.5866 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 46.8398ms
+2023-04-22 18:33:24.4208 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/200 - -
+2023-04-22 18:33:24.4208 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:33:24.4393 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 18:33:24.4539 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/200
+2023-04-22 18:33:24.4539 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/200
+2023-04-22 18:33:24.6176 INFO Received HTTP response headers after 161.7363ms - 200
+2023-04-22 18:33:24.6176 INFO End processing HTTP request after 166.2681ms - 200
+2023-04-22 18:33:24.7197 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 18:33:24.7197 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) in 282.8739ms
+2023-04-22 18:33:24.7197 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:33:24.7197 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/200 - - - 200 - application/json;+charset=utf-8 303.7383ms
+2023-04-22 18:33:28.7912 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/255 - -
+2023-04-22 18:33:28.7912 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:33:28.7912 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 18:33:28.7912 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/255
+2023-04-22 18:33:28.7912 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/255
+2023-04-22 18:33:28.8798 INFO Received HTTP response headers after 86.7832ms - 200
+2023-04-22 18:33:28.8798 INFO End processing HTTP request after 87.0297ms - 200
+2023-04-22 18:33:28.9331 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 18:33:28.9331 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) in 140.9711ms
+2023-04-22 18:33:28.9331 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:33:28.9331 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/255 - - - 200 - application/json;+charset=utf-8 142.3315ms
+2023-04-22 18:33:31.5511 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/100 - -
+2023-04-22 18:33:31.5511 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:33:31.5511 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Decimal]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 18:33:31.5511 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/100
+2023-04-22 18:33:31.5511 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/100
+2023-04-22 18:33:31.6579 INFO Received HTTP response headers after 104.9839ms - 200
+2023-04-22 18:33:31.6579 INFO End processing HTTP request after 105.133ms - 200
+2023-04-22 18:33:31.6579 INFO Executing OkObjectResult, writing value of type 'System.Decimal'.
+2023-04-22 18:33:31.6579 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) in 106.176ms
+2023-04-22 18:33:31.6579 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:33:31.6579 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/100 - - - 200 - application/json;+charset=utf-8 107.4172ms
+2023-04-22 18:33:37.5530 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp//last/100 - -
+2023-04-22 18:33:37.5530 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp//last/100 - - - 404 0 - 0.5230ms
+2023-04-22 18:33:42.5564 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/last/100 - -
+2023-04-22 18:33:42.5564 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 18:33:42.5564 INFO Route matched with {action = "GetMinMaxAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExchangeRatesApi.Models.MinMaxAverage]] GetMinMaxAverage(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 18:33:42.5564 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/100
+2023-04-22 18:33:42.5564 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/100
+2023-04-22 18:33:42.7040 INFO Received HTTP response headers after 143.9739ms - 200
+2023-04-22 18:33:42.7040 INFO End processing HTTP request after 144.0646ms - 200
+2023-04-22 18:33:42.7040 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.Models.MinMaxAverage'.
+2023-04-22 18:33:42.7040 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi) in 146.9714ms
+2023-04-22 18:33:42.7040 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 18:33:42.7040 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/last/100 - - - 200 - application/json;+charset=utf-8 149.6221ms
+2023-04-22 18:39:17.4207 INFO Now listening on: https://localhost:7298
+2023-04-22 18:39:17.4440 INFO Now listening on: http://localhost:5298
+2023-04-22 18:39:17.4452 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:39:17.4452 INFO Hosting environment: Development
+2023-04-22 18:39:17.4452 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:39:17.8160 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:39:17.9259 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:39:17.9259 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:39:17.9259 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 110.5732ms
+2023-04-22 18:39:17.9259 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.5749ms
+2023-04-22 18:39:17.9335 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.5758ms
+2023-04-22 18:39:18.0062 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:39:18.0509 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 44.6284ms
+2023-04-22 18:39:33.0287 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/100 - -
+2023-04-22 18:39:33.0287 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:39:33.0470 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExchangeRatesApi.Models.AskBidDifference]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 18:39:33.0611 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/100
+2023-04-22 18:39:33.0611 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/100
+2023-04-22 18:39:33.2186 INFO Received HTTP response headers after 156.0762ms - 200
+2023-04-22 18:39:33.2186 INFO End processing HTTP request after 159.9891ms - 200
+2023-04-22 18:39:33.3418 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.Models.AskBidDifference'.
+2023-04-22 18:39:33.3418 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) in 297.3785ms
+2023-04-22 18:39:33.3418 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 18:39:33.3418 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/100 - - - 200 - application/json;+charset=utf-8 318.1565ms
+2023-04-22 18:48:55.3989 INFO Now listening on: https://localhost:7298
+2023-04-22 18:48:55.4198 INFO Now listening on: http://localhost:5298
+2023-04-22 18:48:55.4198 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:48:55.4198 INFO Hosting environment: Development
+2023-04-22 18:48:55.4198 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:48:55.6640 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:48:55.7715 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:48:55.7715 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:48:55.7715 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 108.2444ms
+2023-04-22 18:48:55.7715 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.4639ms
+2023-04-22 18:48:55.7787 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.8133ms
+2023-04-22 18:48:55.8203 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:48:55.8678 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 47.5155ms
+2023-04-22 18:49:09.6195 INFO Now listening on: https://localhost:7298
+2023-04-22 18:49:09.6411 INFO Now listening on: http://localhost:5298
+2023-04-22 18:49:09.6411 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:49:09.6411 INFO Hosting environment: Development
+2023-04-22 18:49:09.6411 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:49:09.8514 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:49:09.9584 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:49:09.9584 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:49:09.9584 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 107.6435ms
+2023-04-22 18:49:09.9584 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.4744ms
+2023-04-22 18:49:09.9660 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.0623ms
+2023-04-22 18:49:10.0084 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:49:10.0566 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 48.1809ms
+2023-04-22 18:49:30.6026 INFO Now listening on: https://localhost:7298
+2023-04-22 18:49:30.6235 INFO Now listening on: http://localhost:5298
+2023-04-22 18:49:30.6235 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:49:30.6235 INFO Hosting environment: Development
+2023-04-22 18:49:30.6235 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:49:30.8385 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:49:30.9467 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 108.9336ms
+2023-04-22 18:49:30.9467 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:49:30.9467 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:49:30.9467 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.4926ms
+2023-04-22 18:49:30.9467 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.4902ms
+2023-04-22 18:49:30.9958 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:49:31.0433 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 47.4644ms
+2023-04-22 18:58:50.1785 INFO Now listening on: https://localhost:7298
+2023-04-22 18:58:50.1990 INFO Now listening on: http://localhost:5298
+2023-04-22 18:58:50.1990 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:58:50.1990 INFO Hosting environment: Development
+2023-04-22 18:58:50.1990 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 18:58:50.4127 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/index.html - -
+2023-04-22 18:58:50.5206 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/index.html - - - 200 - text/html;charset=utf-8 108.6720ms
+2023-04-22 18:58:50.5206 INFO Request starting HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - -
+2023-04-22 18:58:50.5206 INFO Request starting HTTP/2 GET https://localhost:7298/_vs/browserLink - -
+2023-04-22 18:58:50.5206 INFO Request finished HTTP/2 GET https://localhost:7298/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.4452ms
+2023-04-22 18:58:50.5286 INFO Request finished HTTP/2 GET https://localhost:7298/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.0871ms
+2023-04-22 18:58:50.5698 INFO Request starting HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - -
+2023-04-22 18:58:50.6179 INFO Request finished HTTP/2 GET https://localhost:7298/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 48.0206ms
+2023-04-22 18:59:54.9749 INFO Now listening on: https://localhost:7298
+2023-04-22 18:59:55.0017 INFO Now listening on: http://localhost:5298
+2023-04-22 18:59:55.0017 INFO Application started. Press Ctrl+C to shut down.
+2023-04-22 18:59:55.0017 INFO Hosting environment: Development
+2023-04-22 18:59:55.0017 INFO Content root path: C:\DOTNET kurs\ExchangeRatesApi\ExchangeRatesApi\
+2023-04-22 19:00:00.8394 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/100 - -
+2023-04-22 19:00:00.8697 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 19:00:00.8842 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExchangeRatesApi.Models.AskBidDifference]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 19:00:00.8985 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/100
+2023-04-22 19:00:00.8985 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/100
+2023-04-22 19:00:01.0929 INFO Received HTTP response headers after 191.4094ms - 200
+2023-04-22 19:00:01.0929 INFO End processing HTTP request after 197.0752ms - 200
+2023-04-22 19:00:01.1654 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.Models.AskBidDifference'.
+2023-04-22 19:00:01.1654 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) in 289.6989ms
+2023-04-22 19:00:01.1654 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 19:00:01.1654 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/100 - - - 200 - application/json;+charset=utf-8 338.6154ms
+2023-04-22 19:00:17.8938 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/100 - -
+2023-04-22 19:00:17.8938 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 19:00:17.8938 INFO Route matched with {action = "GetMajorDifference", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExchangeRatesApi.Models.AskBidDifference]] GetMajorDifference(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 19:00:17.8938 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/100
+2023-04-22 19:00:17.8938 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/c/gbp/last/100
+2023-04-22 19:00:17.9736 INFO Received HTTP response headers after 78.2205ms - 200
+2023-04-22 19:00:17.9736 INFO End processing HTTP request after 78.4982ms - 200
+2023-04-22 19:00:17.9805 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.Models.AskBidDifference'.
+2023-04-22 19:00:17.9805 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi) in 85.8282ms
+2023-04-22 19:00:17.9805 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMajorDifference (ExchangeRatesApi)'
+2023-04-22 19:00:17.9805 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/difference/last/100 - - - 200 - application/json;+charset=utf-8 87.0965ms
+2023-04-22 19:01:22.7226 INFO Request starting HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/last/100 - -
+2023-04-22 19:01:22.7226 INFO Executing endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 19:01:22.7226 INFO Route matched with {action = "GetMinMaxAverage", controller = "ExchangeRates"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ExchangeRatesApi.Models.MinMaxAverage]] GetMinMaxAverage(System.String, Int32) on controller ExchangeRatesApi.Controllers.ExchangeRatesController (ExchangeRatesApi).
+2023-04-22 19:01:22.7272 INFO Start processing HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/100
+2023-04-22 19:01:22.7272 INFO Sending HTTP request GET http://api.nbp.pl/api/exchangerates/rates/a/gbp/last/100
+2023-04-22 19:01:22.8203 INFO Received HTTP response headers after 92.9902ms - 200
+2023-04-22 19:01:22.8206 INFO End processing HTTP request after 93.4522ms - 200
+2023-04-22 19:01:22.8206 INFO Executing OkObjectResult, writing value of type 'ExchangeRatesApi.Models.MinMaxAverage'.
+2023-04-22 19:01:22.8206 INFO Executed action ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi) in 100.395ms
+2023-04-22 19:01:22.8206 INFO Executed endpoint 'ExchangeRatesApi.Controllers.ExchangeRatesController.GetMinMaxAverage (ExchangeRatesApi)'
+2023-04-22 19:01:22.8206 INFO Request finished HTTP/1.1 GET https://localhost:7298/api/ExchangeRates/gbp/last/100 - - - 200 - application/json;+charset=utf-8 103.6956ms
