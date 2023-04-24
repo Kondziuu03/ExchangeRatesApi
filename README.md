@@ -11,6 +11,6 @@ REST Api project, which is getting a data from Narodowy Bank Polski's public API
 ### To query operation 1, run this command (which should have the value 5.2768 as the returning information):
 * curl https://localhost:7298/api/ExchangeRates/gbp/2023-01-02
 ### To query operation 2, run this command (which should have the minAverage 5.2086 and maxAverage 5.4638 as the returning information):
-* curt https://localhost:7298/api/ExchangeRates/gbp/last/100
+* curl https://localhost:7298/api/ExchangeRates/gbp/last/100
 ### To query operation 3, run this command (which should have the date 2022-12-14 and difference 0.1096 as the returning information):
 * curl https://localhost:7298/api/ExchangeRates/gbp/difference/last/100
